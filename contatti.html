@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti | Legge & Diritti</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="img/logo.jpg" alt="Logo" class="logo-img">
+                <div class="logo-text">Legge <span class="accent">&</span> Diritti</div>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list" id="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="chi-siamo.html">Lo Studio</a></li>
+                    <li><a href="aree-pratica.html">Aree di Pratica</a></li>
+                    <li><a href="contatti.html" class="active btn-contact">Contattaci</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contattaci</h1>
+        </div>
+    </section>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-wrapper">
+                
+                <!-- Info Box -->
+                <div class="contact-info-box">
+                    <h3>Siamo qui per te</h3>
+                    <p style="margin-bottom: 30px;">Prenota una consulenza o vieni a trovarci in sede. La prima valutazione del caso è sempre trasparente.</p>
+                    
+                    <div class="info-item">
+                        <strong>Indirizzo</strong>
+                        Via della Giustizia, 10<br>00100 Roma (RM)
+                    </div>
+                    <div class="info-item">
+                        <strong>Telefono</strong>
+                        +39 06 12345678
+                    </div>
+                    <div class="info-item">
+                        <strong>Email</strong>
+                        info@leggeediritti.it
+                    </div>
+                    <div class="info-item">
+                        <strong>Orari Segreteria</strong>
+                        Lun - Ven: 09:00 - 18:00
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label>Nome e Cognome</label>
+                        <input type="text" class="form-control" placeholder="Il tuo nome">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="nome@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Oggetto</label>
+                        <select class="form-control">
+                            <option>Richiesta Informazioni</option>
+                            <option>Diritto Civile</option>
+                            <option>Diritto Penale</option>
+                            <option>Aziende</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Messaggio</label>
+                        <textarea class="form-control" rows="5" placeholder="Descrivi brevemente la tua richiesta..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Invia Richiesta</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-bottom"><p>&copy; 2026 Studio Legale Legge & Diritti.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
