@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatti | Legge & Diritti</title>
+    <title>Casi di Successo | Legge & Diritti</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -20,9 +20,9 @@
                     <li><a href="chi-siamo.html">Lo Studio</a></li>
                     <li><a href="professionisti.html">Professionisti</a></li>
                     <li><a href="aree-pratica.html">Aree di Pratica</a></li>
-                    <li><a href="casi-successo.html">Casi di Successo</a></li>
+                    <li><a href="casi-successo.html" class="active">Casi di Successo</a></li>
                     <li><a href="risorse.html">Risorse</a></li>
-                    <li><a href="contatti.html" class="active btn-contact">Contattaci</a></li>
+                    <li><a href="contatti.html" class="btn-contact">Contattaci</a></li>
                 </ul>
                 <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
             </nav>
@@ -31,63 +31,60 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>Contattaci</h1>
+            <h1>Casi di Successo e Testimonianze</h1>
         </div>
     </section>
 
     <section class="section-padding">
         <div class="container">
-            <div class="contact-wrapper">
-                
-                <!-- Info Box -->
-                <div class="contact-info-box">
-                    <h3>Siamo qui per te</h3>
-                    <p style="margin-bottom: 30px;">Prenota una consulenza o vieni a trovarci in sede. La prima valutazione del caso è sempre trasparente.</p>
-                    
-                    <div class="info-item">
-                        <strong>Indirizzo</strong>
-                        Via della Giustizia, 10<br>00100 Roma (RM)
-                    </div>
-                    <div class="info-item">
-                        <strong>Telefono</strong>
-                        +39 06 12345678
-                    </div>
-                    <div class="info-item">
-                        <strong>Email</strong>
-                        info@leggeediritti.it
-                    </div>
-                    <div class="info-item">
-                        <strong>Orari Segreteria</strong>
-                        Lun - Ven: 09:00 - 18:00
-                    </div>
+            <div class="practice-grid">
+                <!-- Caso 1 -->
+                <div class="practice-card">
+                    <h3>Risarcimento per Infortunio Stradale</h3>
+                    <p><strong>Caso:</strong> Cliente coinvolto in incidente stradale con lesioni permanenti. Riconosciuto danno biologico e perdita di reddito.</p>
+                    <p><strong>Risultato:</strong> Ottenuto risarcimento di €150.000 oltre alle spese mediche e legali.</p>
+                    <p><em>"Lo studio ha gestito tutto con professionalità, ottenendo il massimo possibile." - Sig. M.</em></p>
                 </div>
 
-                <!-- Form -->
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label>Nome e Cognome</label>
-                        <input type="text" class="form-control" placeholder="Il tuo nome">
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" class="form-control" placeholder="nome@email.com">
-                    </div>
-                    <div class="form-group">
-                        <label>Oggetto</label>
-                        <select class="form-control">
-                            <option>Richiesta Informazioni</option>
-                            <option>Diritto Civile</option>
-                            <option>Diritto Penale</option>
-                            <option>Aziende</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Messaggio</label>
-                        <textarea class="form-control" rows="5" placeholder="Descrivi brevemente la tua richiesta..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Invia Richiesta</button>
-                </form>
+                <!-- Caso 2 -->
+                <div class="practice-card">
+                    <h3>Difesa in Caso di Reato Informatico</h3>
+                    <p><strong>Caso:</strong> Imputato per accesso abusivo a sistemi informatici. Dimostrata mancanza di dolo e assoluzione.</p>
+                    <p><strong>Risultato:</strong> Assoluzione piena con archiviazione del procedimento.</p>
+                    <p><em>"Competenza e aggiornamento sulle nuove tecnologie hanno fatto la differenza." - Sig.ra L.</em></p>
+                </div>
 
+                <!-- Caso 3 -->
+                <div class="practice-card">
+                    <h3>Separazione Consensuale</h3>
+                    <p><strong>Caso:</strong> Coppia con minori, negoziato accordo su affidamento e mantenimento senza conflitto.</p>
+                    <p><strong>Risultato:</strong> Separazione consensuale in tempi brevi, tutelando gli interessi dei figli.</p>
+                    <p><em>"Sensibilità e discrezione hanno reso possibile una transizione serena." - Famiglia R.</em></p>
+                </div>
+
+                <!-- Caso 4 -->
+                <div class="practice-card">
+                    <h3>Crisi d'Impresa e Ristrutturazione</h3>
+                    <p><strong>Caso:</strong> Azienda in difficoltà finanziaria, assistita nella procedura di concordato preventivo.</p>
+                    <p><strong>Risultato:</strong> Salvaguardati posti di lavoro e continuità aziendale.</p>
+                    <p><em>"Visione strategica che ha evitato il fallimento." - CEO Società X</em></p>
+                </div>
+
+                <!-- Caso 5 -->
+                <div class="practice-card">
+                    <h3>Licenziamento Illegittimo</h3>
+                    <p><strong>Caso:</strong> Dipendente licenziato senza giusta causa, rivendicazione di reintegro e indennità.</p>
+                    <p><strong>Risultato:</strong> Reintegro in azienda con risarcimento danni di €50.000.</p>
+                    <p><em>"Determinazione e competenza hanno restituito giustizia." - Sig. P.</em></p>
+                </div>
+
+                <!-- Caso 6 -->
+                <div class="practice-card">
+                    <h3>Tutela della Privacy Online</h3>
+                    <p><strong>Caso:</strong> Diffamazione sui social media, violazione GDPR con richiesta di rimozione contenuti.</p>
+                    <p><strong>Risultato:</strong> Rimozione immediata dei contenuti e risarcimento per danno alla reputazione.</p>
+                    <p><em>"Esperienza nel digitale essenziale per casi moderni." - Sig.ra V.</em></p>
+                </div>
             </div>
         </div>
     </section>
